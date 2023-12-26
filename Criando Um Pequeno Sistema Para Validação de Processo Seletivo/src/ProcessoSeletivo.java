@@ -12,16 +12,11 @@ public class ProcessoSeletivo {
     public static void main(String[] args) throws Exception {
         System.out.println("Processo seletivo \n \n");
         selecaoCandidatos();
-
     }
-
-
 
     static void selecaoCandidatos(){
 
     String [] candidatos = {"FELIPE","MÁRCIA","JULIA","PAULO","AUGUSTO","MÔNICA","FABRÍCIO","MIRELA","DANIELA","JORGE"};
-    //String[] nomeSelecionados = new String[5];
-    //double[] salarioSelecionados = new double[5];
 
     for (int i = 0; i < candidatos.length; i++) {
         double salarioPretendido = valorPretendido();
@@ -48,7 +43,6 @@ public class ProcessoSeletivo {
         if (nomeSelecionados[n] != null) {
             tentarContato(nomeSelecionados[n]);
         }else break;
-
     }
 }
 
@@ -61,15 +55,12 @@ public class ProcessoSeletivo {
             }else if (i == 3) {
                 System.out.println("O candidato " + contato + " não retornou as ligações");
             }
-            
             }
-
         }
 
     static double valorPretendido() {
         return ThreadLocalRandom.current().nextDouble(1800,2200);
     }
-
 
     static void analisarCandidato (double salarioPretendido){
         contagemCandidatos++;
@@ -87,5 +78,4 @@ public class ProcessoSeletivo {
     static boolean verificarAtendeu (){
         return new Random().nextInt(3) == 1;
     }
-
 }
