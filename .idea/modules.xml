@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ContaBanco/ContaBanco.iml" filepath="$PROJECT_DIR$/ContaBanco/ContaBanco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Criando Um Pequeno Sistema Para Validação de Processo Seletivo/Criando Um Pequeno Sistema Para Validação de Processo Seletivo.iml" filepath="$PROJECT_DIR$/Criando Um Pequeno Sistema Para Validação de Processo Seletivo/Criando Um Pequeno Sistema Para Validação de Processo Seletivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Criando um Banco Digital com Java e Orientação a Objetos/Criando um Banco Digital com Java e Orientação a Objetos.iml" filepath="$PROJECT_DIR$/Criando um Banco Digital com Java e Orientação a Objetos/Criando um Banco Digital com Java e Orientação a Objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesafioControleFluxo/DesafioControleFluxo.iml" filepath="$PROJECT_DIR$/DesafioControleFluxo/DesafioControleFluxo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Diagramação de classes do iPhone/Diagramação de classes do iPhone.iml" filepath="$PROJECT_DIR$/Diagramação de classes do iPhone/Diagramação de classes do iPhone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TRILHA-JAVABASICO-DIO.iml" filepath="$PROJECT_DIR$/.idea/TRILHA-JAVABASICO-DIO.iml" />
+    </modules>
+  </component>
+</project>
